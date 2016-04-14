@@ -53,6 +53,60 @@ Tables are a way to represent complex information in a grid format
 ### Folder Structure
 
 
+### CSS
+Cascading Style Sheets  
+- individual components of CSS are called rules
+- rules made up of two parts
+  - one or more selectors
+  - one or more declarations  
+
+- CSS syntax
+``` css
+h1 {
+  color: orange;
+  text-align: center;
+    }
+```
+- Declaration = Property + Value
+
+``` css
+/* This is a CSS comment
+          it can be multi-line */
+```  
+- Declarations must end in a semicolon
+
+### CSS Properties
+#### Common CSS Properties
+`background-color` background color for an element  
+`color` color of the text of in an element  
+`font-family` typeface for text  
+`font-size` size for text (px,%,em)  
+`font-weight` bold text  
+`text-decoration` used for underline  
+`height` specifies the height of an element  
+`weight` specifies the width of an element
+
+#### Color in CSS
+Color is just a property  
+
+color name `white` a list of 140 predefined colors  
+hexidecimal `FF0000` RGB values in hex 00-FF (0-255)  
+RGB `rgb(255,0,187)` RGB vales in decimal numbers  
+RGBA `rgba(255,0,187,0.5)` RGB values with an added alpha (opacity) value
+
+#### CSS Units
+em `1em` Scalable unit based on font size  
+pixels `16px` Fixed number of pixels  
+percent `120%` Percent value based on font size
+
+### Block elements
+Stack on top of each other by default
+
+### Inline elements
+Stack across the page by default
+
+
+
 
 
 
