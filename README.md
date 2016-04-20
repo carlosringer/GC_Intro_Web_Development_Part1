@@ -1,7 +1,7 @@
 # Intro to Web Development Part 1 HTML & CSS
 ### Grand Circus Detroit   
 @CarlosRinger
-  
+
 ### `Week 1 - 4/12 & 4/14`
 ### Attributes
 - key/value pairs is an important concept in programming
@@ -110,7 +110,7 @@ pixels | `16px` | Fixed number of pixels
 percent | `120%` | Percent value based on font size
 
 ### Block elements
--  Appear on a new line of a web page, like paragraphs.
+-  Appear on a new line of a web page, like paragraphs
 - Takes up all horizontal space it can
 - Stretches to fill all the space to the left and right within its parent container
 - Stack on top of each other by default
@@ -123,6 +123,57 @@ percent | `120%` | Percent value based on font size
 - Inline element `<a> <img>`
 
 ### `Week 2 - 4/19 & 4/21`
+### CSS Reset
+CSS file that sets all the usual suspects to normalized values, giving you a standard place to start from.  
+
+CSS Reset [http://meyerweb.com/eric/tools/css/reset/]
+- A CSS reset is just another css file that you inclue in your project. Only requirement is to load it before your project's css file. Whatever comes last wins so a CSS reset file included after a `styles.css` will overwrite any styles that conflict betweeen the two.
+
+```html
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="styles.css">
+```
+
+### The Box Model
+Every HTML element is in a box, regardless of its visible shape
+
+The total size of an element is a combination of the following
+ - Content
+ - Padding
+ - Border
+ - Margin
+
+### Border
+- Border is the edge around the element. It has elements of thickness, style, and color
+- CSS property and is defined using CSS rules. There are a few different ways to specify its values
+
+```css
+p { /* each property specified separately */)
+  border-width
+}
+```
+
+### Padding
+Padding is the space between the element and the border. Padding can be specified in `px` or `em`
+
+### Margin
+Like padding & border
+
+### Auto Margin
+If margin is set to `auto` on an element that has a set width, it will take up as much space as possible. You can use this to center or justify an element left or right. This only works for horizontally centering
+
+```css
+p {
+  margin: 0 auto;
+  width: 300px;
+}
+
+p {
+  margin-right: auto;
+  margin-left: 10px;
+  width: 25%;
+}
+```
 
 
 

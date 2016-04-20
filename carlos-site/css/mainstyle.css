@@ -1,21 +1,54 @@
-p {
-  color: blue;
+@@font-face {
+  font-family: 'myfont';
+  src: url('https://fonts.googleapis.com/css?family=Lato');
 }
 
-.fancy {
-  background-color: lightgrey;
+p {
+  color: black;
+}
+
+body {
+font-family: 'myfont';
 }
 
 #special {
   color: white;
 }
 
+footer {
+  text-align: center;
+  clear: both;
+  background: n
+  color:
+}
+
+#nav_bar li {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'myfont', Lato, sans-serif;;
+}
+
+.experience {
+text-align: justify;;
+color: black;
+}
+
+.fancy {
+list-style: none;
+
+}
+
+/*
+.fancy {
+  background-color: lightgrey;
+}
+
 /*ul li {
   font-size: 20px;
 }
-*/
 
-/*
 h1,p {
   text-decoration: line-through;
 }

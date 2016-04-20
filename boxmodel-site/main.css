@@ -1,0 +1,24 @@
+#one {
+  padding: 40px 20px 40px 20px;
+  background-color: grey;
+  margin: 60px;
+  border-width: 10px;
+  border-style: inset;
+}
+
+#two {
+  padding: 40px;
+  background-color: white;
+  margin: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+
+#three {
+  padding: 40px;
+  margin: 55px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: red;
+}
