@@ -175,6 +175,6 @@ p {
 }
 ```
 
-
+### `Week 3 - 4/26 & 4/28`
 
 <div class="footer">&copy; 2016 Carlos Ringer</div>
